@@ -18,7 +18,9 @@
 | 12 | [Banco de Dados com Amazon RDS](./projetos/12-rds/) | RDS · VPC · Security Groups |  Concluído |
 | 13 | [Alta Disponibilidade com Auto Scaling](./projetos/13-auto-scaling/) | EC2 · Auto Scaling · Load Balancer |  Concluído |
 | 14 | [Roteamento e Disponibilidade com Route 53](./projetos/14-route53/) | Route 53 · Health Checks |  Concluído |
+## 🚀 Sobre este portfólio
 
+Este repositório reúne meus projetos práticos em AWS Cloud Computing, com foco em infraestrutura, redes, monitoramento e segurança na nuvem.
 
 
 
