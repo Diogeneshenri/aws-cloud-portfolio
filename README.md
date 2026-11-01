@@ -12,13 +12,12 @@
 | 06 | [Gerenciamento de Instâncias com Systems Manager](./projetos/06-systems-manager/) | SSM · Session Manager · Run Command · Parameter Store | Concluido  | Escola da Nuvem |
 | 07 | [Investigação de Segurança com CloudTrail](./projetos/07-cloudtrail-seguranca/) | CloudTrail · EC2 · AWS CLI · Athena | Concluido  | Escola da Nuvem |
 | 08 | [Administração Linux em Amazon EC2](./projetos/08-linux-ec2/) | EC2 · Linux · SSH · EBS | Concluido  | Prática AWS |
-
-| 09 | [Infraestrutura como Código com CloudFormation](./projetos/09-cloudformation/) | CloudFormation · AWS | pendente |
-| 10 | [Monitoramento e Alertas com CloudWatch](./projetos/10-cloudwatch-sns/) | CloudWatch · SNS · EC2 | Pendete |
-| 11 | [Implantação com Elastic Beanstalk](./projetos/11-elastic-beanstalk/) | Elastic Beanstalk · EC2 | Pendente |
-| 12 | [Banco de Dados com Amazon RDS](./projetos/12-rds/) | RDS · VPC · Security Groups | Pendente |
-| 13 | [Alta Disponibilidade com Auto Scaling](./projetos/13-auto-scaling/) | EC2 · Auto Scaling · Load Balancer | Pendente |
-| 14 | [Roteamento e Disponibilidade com Route 53](./projetos/14-route53/) | Route 53 · Health Checks | Pendente |
+| 09 | [Infraestrutura como Código com CloudFormation](./projetos/09-cloudformation/) | CloudFormation · AWS |  Concluído |
+| 10 | [Monitoramento e Alertas com CloudWatch](./projetos/10-cloudwatch-sns/) | CloudWatch · SNS · EC2 |  Concluído |
+| 11 | [Implantação com Elastic Beanstalk](./projetos/11-elastic-beanstalk/) | Elastic Beanstalk · EC2 |  Concluído |
+| 12 | [Banco de Dados com Amazon RDS](./projetos/12-rds/) | RDS · VPC · Security Groups |  Concluído |
+| 13 | [Alta Disponibilidade com Auto Scaling](./projetos/13-auto-scaling/) | EC2 · Auto Scaling · Load Balancer |  Concluído |
+| 14 | [Roteamento e Disponibilidade com Route 53](./projetos/14-route53/) | Route 53 · Health Checks |  Concluído |
 
 
 
