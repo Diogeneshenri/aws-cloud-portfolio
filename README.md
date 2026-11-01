@@ -12,7 +12,7 @@
 | 06 | [Gerenciamento de Instâncias com Systems Manager](./projetos/06-systems-manager/) | SSM · Session Manager · Run Command · Parameter Store | Concluido  | Escola da Nuvem |
 | 07 | [Investigação de Segurança com CloudTrail](./projetos/07-cloudtrail-seguranca/) | CloudTrail · EC2 · AWS CLI · Athena | Concluido  | Escola da Nuvem |
 | 08 | [Administração Linux em Amazon EC2](./projetos/08-linux-ec2/) | EC2 · Linux · SSH · EBS | Concluido  | Prática AWS |
-| 09 | [Infraestrutura como Código com CloudFormation](./projetos/09-cloudformation/) | CloudFormation · AWS |  Concluído |
+| 09 | [Infraestrutura como Código com CloudFormation](./projetos/09-cloudformation/) | CloudFormation · AWS |  Concluído | Iniciativa Própria
 | 10 | [Monitoramento e Alertas com CloudWatch](./projetos/10-cloudwatch-sns/) | CloudWatch · SNS · EC2 |  Concluído | Escola da Nuvem |
 | 11 | [Implantação com Elastic Beanstalk](./projetos/11-elastic-beanstalk/) | Elastic Beanstalk · EC2 |  Concluído | Iniciativa Própria|
 | 12 | [Banco de Dados com Amazon RDS](./projetos/12-rds/) | RDS · VPC · Security Groups |  Concluído | Iniciativa Própria |
