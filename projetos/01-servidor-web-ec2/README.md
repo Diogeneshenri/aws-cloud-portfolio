@@ -1,16 +1,17 @@
-# ☁️ Projeto — Servidor Web com Amazon EC2
+☁️ Projeto — Servidor Web com Amazon EC2
 
-**Serviços:** EC2 · Security Groups · EBS  
-**Origem:** Escola da Nuvem  
-**Status:** 🟢 Documentação inicial — revisar com evidências
+![AWS](https://img.shields.io/badge/AWS-EC2-orange?style=for-the-badge)
+![Apache](https://img.shields.io/badge/APACHE-HTTP_SERVER-red?style=for-the-badge)
+![Linux](https://img.shields.io/badge/LINUX-AMAZON_LINUX-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/STATUS-CONCLU%C3%8DDO-brightgreen?style=for-the-badge)
 
 ---
 
-## 🎯 Objetivo
+ 🎯 Objetivo
 
 Implantar um servidor web em uma instância EC2 e configurar regras de acesso.
 
-## 🛠️ Serviços e tecnologias
+ 🛠️ Serviços e tecnologias
 
 | Tecnologia | Aplicação no projeto |
 |---|---|
@@ -18,7 +19,7 @@ Implantar um servidor web em uma instância EC2 e configurar regras de acesso.
 | Security Groups | Componente do ambiente; conferir configuração específica nas evidências |
 | EBS | Componente do ambiente; conferir configuração específica nas evidências |
 
-## 🏗️ Arquitetura da solução
+🏗️ Arquitetura da solução
 
 > Diagrama conceitual para documentação. Confirme se corresponde ao ambiente realmente implementado.
 
@@ -28,22 +29,23 @@ Internet --> SG[Security Group: HTTP/HTTPS] --> EC2[EC2: Linux + servidor web]
 EC2 --> EBS[Volume EBS]
 ```
 
-## 📋 Etapas de implementação
+ 📋 Etapas de implementação
 
 1. Criar instância EC2 e selecionar AMI
 2. Configurar Security Group conforme portas realmente utilizadas
 3. Instalar e iniciar servidor web
 4. Testar acesso e registrar resultado
 
-## 💻 Scripts e comandos
+ 💻 Scripts e comandos
 
-Adicione aqui **somente comandos realmente utilizados**, após remover senhas, chaves, IDs privados e outros dados sensíveis.
+#!/bin/bash
+yum -y install httpd
+systemctl enable httpd
+systemctl start httpd
+echo '<html><h1>DiogenesHenri fazendo projetos!</h1></html>' > /var/www/html/index.html
 
-```bash
-# Exemplo de espaço reservado — substitua pelos seus comandos reais
-```
 
-## 📸 Evidências
+ 📸 Evidências
 
 Envie imagens para a pasta [`evidencias/`](./evidencias/) e insira aqui as referências, por exemplo:
 
@@ -51,10 +53,13 @@ Envie imagens para a pasta [`evidencias/`](./evidencias/) e insira aqui as refer
 ![Instância EC2 configurada](./evidencias/instancia-ec2.png)
 ```
 
-## ✅ Resultados e aprendizados
+✅ Resultados e aprendizados
 
-Descreva o resultado que você observou e os principais aprendizados, sem afirmar testes que não foram realizados.
+💡 Aprendizados
+✅ Processo de criação e configuração de uma instância EC2
+✅ Uso do User Data para automatizar a instalação de serviços no boot
+✅ Papel dos Security Groups no controle de acesso à instância
+✅ Importância do Amazon EBS como armazenamento persistente
+✅ Como redimensionar tipo de instância e volume de armazenamento
+✅ Proteção contra término acidental de instâncias em produção
 
-## 🔐 Cuidados de segurança
-
-Não publique chaves de acesso, credenciais, arquivos `.pem`, tokens, dados pessoais, identificadores sensíveis ou configurações internas de contas.
