@@ -48,9 +48,10 @@ echo '<html><h1>Meu primeiro servidor web AWS!</h1></html>' > /var/www/html/inde
 ```
 
  📸 Evidências
+🖥️ Servidor Web EC2 em funcionamento
 
 <p align="center">
-  <img src="./evidencias/sua-imagem.png" alt="Evidência do laboratório AWS EC2" width="100%">
+  <img src="./evidencias/ec2-servidor.jfif" alt="Evidência do servidor web AWS EC2" width="100%">
 </p>
 ✅ Resultados e aprendizados
 
