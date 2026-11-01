@@ -38,11 +38,42 @@ EC2 --> EBS[Volume EBS]
 
  💻 Scripts e comandos
 
+## 💻 Script User Data
+
+```bash
 #!/bin/bash
-yum -y install httpd
+
+# Atualizar os pacotes
+yum update -y
+
+# Instalar o servidor Apache
+yum install -y httpd
+
+# Habilitar o Apache na inicialização
 systemctl enable httpd
+
+# Iniciar o servidor Apache
 systemctl start httpd
-echo '<html><h1>DiogenesHenri fazendo projetos!</h1></html>' > /var/www/html/index.html
+
+# Criar a página HTML
+cat > /var/www/html/index.html <<'EOF'
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor Web AWS EC2</title>
+</head>
+<body>
+    <h1>Meu primeiro servidor web na AWS!</h1>
+    <p>Projeto desenvolvido utilizando Amazon EC2, Linux e Apache.</p>
+    <p>Status: Servidor funcionando com sucesso!</p>
+</body>
+</html>
+EOF
+
+# Verificar o status do Apache
+systemctl status httpd --no-pager
+```
 
 
  📸 Evidências
